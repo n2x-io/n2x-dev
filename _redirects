@@ -1,0 +1,31 @@
+/n2x/* go-get=1 /golang/n2x.html 200
+/n2x/* https://github.com/n2x-io/n2x 301
+
+/x-api/* https://github.com/n2x-io/x-api 301
+
+/x-api-swagger/* https://github.com/n2x-io/x-api-swagger 301
+
+/x-api-ts/* https://github.com/n2x-io/x-api-ts 301
+
+/x-api-go/* go-get=1 /golang/x-api-go.html 200
+/x-api-go/* https://github.com/n2x-io/x-api-go 301
+
+/x-lib/* go-get=1 /golang/x-lib.html 200
+/x-lib/* https://github.com/n2x-io/x-lib 301
+
+/x-sys/* go-get=1 /golang/x-sys.html 200
+/x-sys/* https://github.com/n2x-io/x-sys 301
+
+/x-node/* go-get=1 /golang/x-node.html 200
+/x-node/* https://github.com/n2x-io/x-node 301
+
+/x-cli/* go-get=1 /golang/x-cli.html 200
+/x-cli/* https://github.com/n2x-io/x-cli 301
+
+# These rules will change if you change your site’s custom domains or HTTPS settings
+
+# Redirect default Netlify subdomain to primary domain
+https://n2x-dev.netlify.app/* https://n2x.io/:splat 301!
+
+# Redirect everything else to primary domain
+https://n2x.dev/* https://n2x.io/:splat 301!
